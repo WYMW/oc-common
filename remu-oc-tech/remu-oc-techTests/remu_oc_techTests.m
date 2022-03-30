@@ -66,4 +66,10 @@
     XCTAssertEqualObjects([chinese sha256HashHex], [@"39afd6d3502a4b199b27f4f0860182fc92a999da84a23cee754af5e76f84f384" uppercaseString]);
 }
 
+- (void)testChangeValue {
+    NSInteger value = [@"qwe" integerValue];
+    NSLog(@"%d", value);
+    XCTAssertEqual(0, value);
+}
+
 @end

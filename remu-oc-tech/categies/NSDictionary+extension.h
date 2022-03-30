@@ -10,7 +10,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface NSDictionary (extension)
-
+-(NSString *)getStringValue:(NSString *)key defaultValue:(NSString *)defaultValue;
 @end
 
 NS_ASSUME_NONNULL_END
