@@ -1,0 +1,652 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C6F48F527F414F300AF1FCB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6F48F427F414F300AF1FCB /* AppDelegate.m */; };
+		4C6F48F827F414F300AF1FCB /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6F48F727F414F300AF1FCB /* SceneDelegate.m */; };
+		4C6F48FB27F414F300AF1FCB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6F48FA27F414F300AF1FCB /* ViewController.m */; };
+		4C6F48FE27F414F300AF1FCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C6F48FC27F414F300AF1FCB /* Main.storyboard */; };
+		4C6F490027F414F500AF1FCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C6F48FF27F414F500AF1FCB /* Assets.xcassets */; };
+		4C6F490327F414F500AF1FCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C6F490127F414F500AF1FCB /* LaunchScreen.storyboard */; };
+		4C6F490627F414F500AF1FCB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6F490527F414F500AF1FCB /* main.m */; };
+		4C6F491027F414F600AF1FCB /* remu_oc_techTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6F490F27F414F600AF1FCB /* remu_oc_techTests.m */; };
+		4C6F491A27F414F600AF1FCB /* remu_oc_techUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6F491927F414F600AF1FCB /* remu_oc_techUITests.m */; };
+		4C6F491C27F414F600AF1FCB /* remu_oc_techUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6F491B27F414F600AF1FCB /* remu_oc_techUITestsLaunchTests.m */; };
+		4C6F493627F4156A00AF1FCB /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6F492827F4156A00AF1FCB /* Utility.m */; };
+		4C6F493827F4156A00AF1FCB /* NSArray+extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6F492C27F4156A00AF1FCB /* NSArray+extension.m */; };
+		4C6F493927F4156A00AF1FCB /* NSDictionary+extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6F492E27F4156A00AF1FCB /* NSDictionary+extension.m */; };
+		4C6F493A27F4156A00AF1FCB /* NSString+extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6F492F27F4156A00AF1FCB /* NSString+extension.m */; };
+		4C6F493B27F4156A00AF1FCB /* ZQApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6F493227F4156A00AF1FCB /* ZQApp.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C6F490C27F414F600AF1FCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C6F48E827F414F300AF1FCB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C6F48EF27F414F300AF1FCB;
+			remoteInfo = "remu-oc-tech";
+		};
+		4C6F491627F414F600AF1FCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C6F48E827F414F300AF1FCB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C6F48EF27F414F300AF1FCB;
+			remoteInfo = "remu-oc-tech";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4C6F48F027F414F300AF1FCB /* remu-oc-tech.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "remu-oc-tech.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C6F48F327F414F300AF1FCB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4C6F48F427F414F300AF1FCB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4C6F48F627F414F300AF1FCB /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		4C6F48F727F414F300AF1FCB /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		4C6F48F927F414F300AF1FCB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4C6F48FA27F414F300AF1FCB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4C6F48FD27F414F300AF1FCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4C6F48FF27F414F500AF1FCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C6F490227F414F500AF1FCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4C6F490427F414F500AF1FCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C6F490527F414F500AF1FCB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4C6F490B27F414F600AF1FCB /* remu-oc-techTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "remu-oc-techTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C6F490F27F414F600AF1FCB /* remu_oc_techTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = remu_oc_techTests.m; sourceTree = "<group>"; };
+		4C6F491527F414F600AF1FCB /* remu-oc-techUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "remu-oc-techUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C6F491927F414F600AF1FCB /* remu_oc_techUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = remu_oc_techUITests.m; sourceTree = "<group>"; };
+		4C6F491B27F414F600AF1FCB /* remu_oc_techUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = remu_oc_techUITestsLaunchTests.m; sourceTree = "<group>"; };
+		4C6F492827F4156A00AF1FCB /* Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utility.m; sourceTree = SOURCE_ROOT; };
+		4C6F492B27F4156A00AF1FCB /* NSDictionary+extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+extension.h"; sourceTree = "<group>"; };
+		4C6F492C27F4156A00AF1FCB /* NSArray+extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+extension.m"; sourceTree = "<group>"; };
+		4C6F492D27F4156A00AF1FCB /* NSString+extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+extension.h"; sourceTree = "<group>"; };
+		4C6F492E27F4156A00AF1FCB /* NSDictionary+extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+extension.m"; sourceTree = "<group>"; };
+		4C6F492F27F4156A00AF1FCB /* NSString+extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+extension.m"; sourceTree = "<group>"; };
+		4C6F493027F4156A00AF1FCB /* NSArray+extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+extension.h"; sourceTree = "<group>"; };
+		4C6F493227F4156A00AF1FCB /* ZQApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQApp.m; sourceTree = "<group>"; };
+		4C6F493327F4156A00AF1FCB /* ZQApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQApp.h; sourceTree = "<group>"; };
+		4C6F493427F4156A00AF1FCB /* ZQMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQMacros.h; sourceTree = "<group>"; };
+		4C6F493527F4156A00AF1FCB /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C6F48ED27F414F300AF1FCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C6F490827F414F600AF1FCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C6F491227F414F600AF1FCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C6F48E727F414F300AF1FCB = {
+			isa = PBXGroup;
+			children = (
+				4C6F48F227F414F300AF1FCB /* remu-oc-tech */,
+				4C6F490E27F414F600AF1FCB /* remu-oc-techTests */,
+				4C6F491827F414F600AF1FCB /* remu-oc-techUITests */,
+				4C6F48F127F414F300AF1FCB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C6F48F127F414F300AF1FCB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C6F48F027F414F300AF1FCB /* remu-oc-tech.app */,
+				4C6F490B27F414F600AF1FCB /* remu-oc-techTests.xctest */,
+				4C6F491527F414F600AF1FCB /* remu-oc-techUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C6F48F227F414F300AF1FCB /* remu-oc-tech */ = {
+			isa = PBXGroup;
+			children = (
+				4C6F492A27F4156A00AF1FCB /* categies */,
+				4C6F493127F4156A00AF1FCB /* Macros */,
+				4C6F493527F4156A00AF1FCB /* Utility.h */,
+				4C6F492827F4156A00AF1FCB /* Utility.m */,
+				4C6F48F327F414F300AF1FCB /* AppDelegate.h */,
+				4C6F48F427F414F300AF1FCB /* AppDelegate.m */,
+				4C6F48F627F414F300AF1FCB /* SceneDelegate.h */,
+				4C6F48F727F414F300AF1FCB /* SceneDelegate.m */,
+				4C6F48F927F414F300AF1FCB /* ViewController.h */,
+				4C6F48FA27F414F300AF1FCB /* ViewController.m */,
+				4C6F48FC27F414F300AF1FCB /* Main.storyboard */,
+				4C6F48FF27F414F500AF1FCB /* Assets.xcassets */,
+				4C6F490127F414F500AF1FCB /* LaunchScreen.storyboard */,
+				4C6F490427F414F500AF1FCB /* Info.plist */,
+				4C6F490527F414F500AF1FCB /* main.m */,
+			);
+			path = "remu-oc-tech";
+			sourceTree = "<group>";
+		};
+		4C6F490E27F414F600AF1FCB /* remu-oc-techTests */ = {
+			isa = PBXGroup;
+			children = (
+				4C6F490F27F414F600AF1FCB /* remu_oc_techTests.m */,
+			);
+			path = "remu-oc-techTests";
+			sourceTree = "<group>";
+		};
+		4C6F491827F414F600AF1FCB /* remu-oc-techUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4C6F491927F414F600AF1FCB /* remu_oc_techUITests.m */,
+				4C6F491B27F414F600AF1FCB /* remu_oc_techUITestsLaunchTests.m */,
+			);
+			path = "remu-oc-techUITests";
+			sourceTree = "<group>";
+		};
+		4C6F492A27F4156A00AF1FCB /* categies */ = {
+			isa = PBXGroup;
+			children = (
+				4C6F492B27F4156A00AF1FCB /* NSDictionary+extension.h */,
+				4C6F492C27F4156A00AF1FCB /* NSArray+extension.m */,
+				4C6F492D27F4156A00AF1FCB /* NSString+extension.h */,
+				4C6F492E27F4156A00AF1FCB /* NSDictionary+extension.m */,
+				4C6F492F27F4156A00AF1FCB /* NSString+extension.m */,
+				4C6F493027F4156A00AF1FCB /* NSArray+extension.h */,
+			);
+			path = categies;
+			sourceTree = SOURCE_ROOT;
+		};
+		4C6F493127F4156A00AF1FCB /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+				4C6F493227F4156A00AF1FCB /* ZQApp.m */,
+				4C6F493327F4156A00AF1FCB /* ZQApp.h */,
+				4C6F493427F4156A00AF1FCB /* ZQMacros.h */,
+			);
+			path = Macros;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C6F48EF27F414F300AF1FCB /* remu-oc-tech */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C6F491F27F414F600AF1FCB /* Build configuration list for PBXNativeTarget "remu-oc-tech" */;
+			buildPhases = (
+				4C6F48EC27F414F300AF1FCB /* Sources */,
+				4C6F48ED27F414F300AF1FCB /* Frameworks */,
+				4C6F48EE27F414F300AF1FCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "remu-oc-tech";
+			productName = "remu-oc-tech";
+			productReference = 4C6F48F027F414F300AF1FCB /* remu-oc-tech.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C6F490A27F414F600AF1FCB /* remu-oc-techTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C6F492227F414F600AF1FCB /* Build configuration list for PBXNativeTarget "remu-oc-techTests" */;
+			buildPhases = (
+				4C6F490727F414F600AF1FCB /* Sources */,
+				4C6F490827F414F600AF1FCB /* Frameworks */,
+				4C6F490927F414F600AF1FCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C6F490D27F414F600AF1FCB /* PBXTargetDependency */,
+			);
+			name = "remu-oc-techTests";
+			productName = "remu-oc-techTests";
+			productReference = 4C6F490B27F414F600AF1FCB /* remu-oc-techTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4C6F491427F414F600AF1FCB /* remu-oc-techUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C6F492527F414F600AF1FCB /* Build configuration list for PBXNativeTarget "remu-oc-techUITests" */;
+			buildPhases = (
+				4C6F491127F414F600AF1FCB /* Sources */,
+				4C6F491227F414F600AF1FCB /* Frameworks */,
+				4C6F491327F414F600AF1FCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C6F491727F414F600AF1FCB /* PBXTargetDependency */,
+			);
+			name = "remu-oc-techUITests";
+			productName = "remu-oc-techUITests";
+			productReference = 4C6F491527F414F600AF1FCB /* remu-oc-techUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C6F48E827F414F300AF1FCB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					4C6F48EF27F414F300AF1FCB = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					4C6F490A27F414F600AF1FCB = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 4C6F48EF27F414F300AF1FCB;
+					};
+					4C6F491427F414F600AF1FCB = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 4C6F48EF27F414F300AF1FCB;
+					};
+				};
+			};
+			buildConfigurationList = 4C6F48EB27F414F300AF1FCB /* Build configuration list for PBXProject "remu-oc-tech" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C6F48E727F414F300AF1FCB;
+			productRefGroup = 4C6F48F127F414F300AF1FCB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C6F48EF27F414F300AF1FCB /* remu-oc-tech */,
+				4C6F490A27F414F600AF1FCB /* remu-oc-techTests */,
+				4C6F491427F414F600AF1FCB /* remu-oc-techUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C6F48EE27F414F300AF1FCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C6F490327F414F500AF1FCB /* LaunchScreen.storyboard in Resources */,
+				4C6F490027F414F500AF1FCB /* Assets.xcassets in Resources */,
+				4C6F48FE27F414F300AF1FCB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C6F490927F414F600AF1FCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C6F491327F414F600AF1FCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C6F48EC27F414F300AF1FCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C6F48FB27F414F300AF1FCB /* ViewController.m in Sources */,
+				4C6F48F527F414F300AF1FCB /* AppDelegate.m in Sources */,
+				4C6F493927F4156A00AF1FCB /* NSDictionary+extension.m in Sources */,
+				4C6F493627F4156A00AF1FCB /* Utility.m in Sources */,
+				4C6F490627F414F500AF1FCB /* main.m in Sources */,
+				4C6F493A27F4156A00AF1FCB /* NSString+extension.m in Sources */,
+				4C6F493827F4156A00AF1FCB /* NSArray+extension.m in Sources */,
+				4C6F493B27F4156A00AF1FCB /* ZQApp.m in Sources */,
+				4C6F48F827F414F300AF1FCB /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C6F490727F414F600AF1FCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C6F491027F414F600AF1FCB /* remu_oc_techTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C6F491127F414F600AF1FCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C6F491C27F414F600AF1FCB /* remu_oc_techUITestsLaunchTests.m in Sources */,
+				4C6F491A27F414F600AF1FCB /* remu_oc_techUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C6F490D27F414F600AF1FCB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C6F48EF27F414F300AF1FCB /* remu-oc-tech */;
+			targetProxy = 4C6F490C27F414F600AF1FCB /* PBXContainerItemProxy */;
+		};
+		4C6F491727F414F600AF1FCB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C6F48EF27F414F300AF1FCB /* remu-oc-tech */;
+			targetProxy = 4C6F491627F414F600AF1FCB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4C6F48FC27F414F300AF1FCB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C6F48FD27F414F300AF1FCB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4C6F490127F414F500AF1FCB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C6F490227F414F500AF1FCB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C6F491D27F414F600AF1FCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4C6F491E27F414F600AF1FCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C6F492027F414F600AF1FCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 94Y7W92KYH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "remu-oc-tech/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sb.remu-oc-tech";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4C6F492127F414F600AF1FCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 94Y7W92KYH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "remu-oc-tech/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sb.remu-oc-tech";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4C6F492327F414F600AF1FCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 94Y7W92KYH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sb.remu-oc-techTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/remu-oc-tech.app/remu-oc-tech";
+			};
+			name = Debug;
+		};
+		4C6F492427F414F600AF1FCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 94Y7W92KYH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sb.remu-oc-techTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/remu-oc-tech.app/remu-oc-tech";
+			};
+			name = Release;
+		};
+		4C6F492627F414F600AF1FCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 94Y7W92KYH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sb.remu-oc-techUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "remu-oc-tech";
+			};
+			name = Debug;
+		};
+		4C6F492727F414F600AF1FCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 94Y7W92KYH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sb.remu-oc-techUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "remu-oc-tech";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C6F48EB27F414F300AF1FCB /* Build configuration list for PBXProject "remu-oc-tech" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C6F491D27F414F600AF1FCB /* Debug */,
+				4C6F491E27F414F600AF1FCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C6F491F27F414F600AF1FCB /* Build configuration list for PBXNativeTarget "remu-oc-tech" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C6F492027F414F600AF1FCB /* Debug */,
+				4C6F492127F414F600AF1FCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C6F492227F414F600AF1FCB /* Build configuration list for PBXNativeTarget "remu-oc-techTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C6F492327F414F600AF1FCB /* Debug */,
+				4C6F492427F414F600AF1FCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C6F492527F414F600AF1FCB /* Build configuration list for PBXNativeTarget "remu-oc-techUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C6F492627F414F600AF1FCB /* Debug */,
+				4C6F492727F414F600AF1FCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C6F48E827F414F300AF1FCB /* Project object */;
+}
